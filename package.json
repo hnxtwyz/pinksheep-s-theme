@@ -1,0 +1,27 @@
+{
+  "name": "pinksheep-s-theme",
+  "displayName": "PinkSheep's Theme",
+  "description": "PinkSheep's Theme",
+  "version": "1.0.0",
+  "publisher": "hnxtwyz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hnxtwyz/pinksheep-s-theme"
+  },
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PinkSheep's Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PinkSheep's Theme-color-theme.json"
+      }
+    ]
+  }
+}
